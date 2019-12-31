@@ -1,0 +1,17 @@
+.bgc{
+   background-color: rgba(7, 167, 108, 0.973);
+   background-image: url(/img/img.png);
+   background-size: 1em;
+}
+.bgclr{
+   background-color: rgb(53, 71, 53);
+}*/
+.bgc{
+   background-color: rgba(138, 243, 205, 0.973);
+}
+.content{
+       font-family: 'Bebas Neue', cursive;
+}
+.heading{
+   font-family: 'Girassol', cursive;
+}

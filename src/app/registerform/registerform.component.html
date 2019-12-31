@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> registor form </title>
+    </head>
+<body>
+  <div class="form card" style="overflow: hidden;">
+    <form  [formGroup]="data" class="form-group" style="color: #757575;" action="#!">
+        <!-- projectname -->
+        <div class="form-group md-form">
+          <label for="exampleInputEmail1" class="bmd-label-floating">ProjectName</label>
+          <input type="text" id="materialLoginFormEmail"  class="form-control" formControlName="Name">
+        </div>
+       <!-- CLIENTPHNIUMBER -->
+    <div class="form-group">
+        <label for="ClientPhoneNumber" class="col-sm-2 col-form-label">ClientPhoneNumber</label>
+        <input type="number" class="form-control"  formControlName="ClientPhoneNumber">
+      </div>
+    <!-- EMAIL -->
+      <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control"  formControlName="Email">
+      </div>
+      <!-- Password -->
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control"  formControlName="password">
+      </div>
+      <!-- HOURLYRATE -->
+      <div class="form-group">
+        <label for="rate">HourlyRate</label>
+        <input type="number" class="form-control"  formControlName="rate">
+      </div>
+      <!-- starttime -->
+      <div class="form-group">
+        <label for="starttime">StartingTime</label>
+        <input type="number" class="form-control"  formControlName="starttime">
+      </div>
+      <!-- endingtime -->
+      <div class="form-group">
+        <label for="endtime">EndingTime</label>
+        <input type="number" class="form-control"  formControlName="endtime">
+      </div>
+
+
+            <!-- submit button -->
+        <input  type="submit" class="or" (click)=add()  onclick="window.location.reload()" class="btn btn-primary" >
+
+        <button class="btn btn-primary and" [routerLink]="['/proglist']" (click)="fun()">list project</button>
+    </form>
+      </div>
+
+</body>
+</html>

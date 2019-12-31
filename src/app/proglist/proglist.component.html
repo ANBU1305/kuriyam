@@ -1,0 +1,25 @@
+<table>
+    <tr>
+    <th>project list
+    </th>
+    <th>Email
+
+    </th>
+    <th>
+        revenue
+    </th>
+    <th>
+        hourlyrate
+    </th>
+    </tr>
+<tr *ngFor="let l of list">
+   <td> {{l.Name}}</td>
+  <td> {{l.Email}}</td>
+  <!-- <td>{{l.starttime}}</td>
+    <td>{{l.endtime}}</td> -->
+    <!-- <td *ngFor="let v of revenue"> {{ v }}</td> -->
+    <td>{{l.rev}}</td>
+    <td>{{l.rate}}</td>
+    <button (click)="del(l.Name)"> delete </button> 
+
+    </table>

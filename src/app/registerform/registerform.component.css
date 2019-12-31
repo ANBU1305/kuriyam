@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: skyblue;
+}
+/* .form{
+    margin-left: 5%;
+    height: 650px;
+    background-color: wheat;
+        margin: auto;
+        width: 50%;
+        border: 3px solid;
+        padding: 10px;
+      
+} */
+
+.form >form{
+    margin-left: 15px;
+}
+.and{
+    float: right;
+
+}
+.or{
+    float: left;
+}
+.form-control{
+    width:372px;
+}

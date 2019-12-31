@@ -1,0 +1,13 @@
+
+
+
+
+table, td, th {
+border: 2px #2b2b2b solid;
+}
+
+table {
+width: 200px;
+float: left;
+margin: 20px 40px;
+}
